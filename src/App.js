@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar/Navbar'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
- /*  return (
+  return (
     <div className="App">
-      <header className="App-header">
+     {/*  <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,9 +19,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <Navbar color={'gray'} />
+      <ItemListContainer greeting = {'Catalogo de Cervezas'} />
     </div>
   );
-} */
+}
 
 export default App;
