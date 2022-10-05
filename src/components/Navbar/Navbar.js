@@ -1,6 +1,6 @@
 import './Navbar.css'
 import CartWidget from '../CartWidget/CartWidget'
-
+import { Link } from 'react-router-dom'
 const Navbar = ({color}) => {
      return(
         <div 
@@ -9,15 +9,16 @@ const Navbar = ({color}) => {
          }} 
             className='centrado'>
             <div>
-                <h1> Cerveza Godua</h1>
+                <Link to='/'>
+                     <h1> Cerveza Godua</h1>
+                </Link>
+                
             </div>
 
             <div>
-                <button>BLONDE </button>
-                <button>AMBER ALE</button>
-                <button>IPA</button>
-                <button>APA</button>
-                <button>BARLEY WINE</button>
+                <Link to='/category/CERVEZAS SUAVES' className="Option">Blonde Ale</Link>
+              <Link to='/category/CERVEZAS ROJAS' className="Option">Amber Ale</Link>
+              <Link to='/category/CERVEZAS AMARGAS' className="Option">IPA</Link>
             </div>
             
             <div> 
