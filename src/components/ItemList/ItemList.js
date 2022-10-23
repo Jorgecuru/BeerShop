@@ -1,11 +1,12 @@
-import { Link } from "react-router-dom"
-
+import { memo } from 'react'
+import Item from "../Item/Item.js"
+import './ItemList.css'
 const ItemList = ({ products }) => {
     return (
-        <ul style={{display: 'flex', flexDirection: 'column'}}>
-            { products.map(product => <Link to={`/detail/${product.id}`} key={product.id}>{product.name}</Link>) }
-        </ul>
+        <div className='ListGroup' onClick={() => console.log('hice click en itemlist')}>
+            {products.map(prod => <Item key={prod.id} {...prod} />)}
+        </div>    
     )
+    
 }
-
-export default ItemList
+export default memo(ItemList)

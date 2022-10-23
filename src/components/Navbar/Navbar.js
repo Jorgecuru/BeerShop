@@ -16,9 +16,10 @@ const Navbar = ({color}) => {
             </div>
 
             <div>
-                <Link to='/category/CERVEZAS SUAVES' className="Option">Blonde Ale</Link>
-              <Link to='/category/CERVEZAS ROJAS' className="Option">Amber Ale</Link>
-              <Link to='/category/CERVEZAS AMARGAS' className="Option">IPA</Link>
+                <Link to='/category/CERVEZAS SUAVES' className="Option">Cervezas Suaves</Link>
+              <Link to='/category/CERVEZAS ROJAS' className="Option">Cervezas Rojas</Link>
+              <Link to='/category/CERVEZAS AMARGAS' className="Option">Cervezas Amargas</Link>
+              <Link to='/category/CERVEZAS FUERTES' className="Option">Cervezas Fuertes</Link>
             </div>
             
             <div> 
