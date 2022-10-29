@@ -10,7 +10,7 @@ const Navbar = ({color}) => {
             className='centrado'>
             <div>
                 <Link to='/'>
-                     <h1> Cerveza Godua</h1>
+                     <h1 className="titulo"> Cerveza Godua</h1>
                 </Link>
                 
             </div>
