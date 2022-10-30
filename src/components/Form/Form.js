@@ -41,13 +41,13 @@ export const Form = ({createOrder}) => {
   return (
 
 
-    <form className="form-register" onSubmit={handleSubmit}>
+    <form className="ItemDetailContainer" onSubmit={handleSubmit}>
     <h4>Checkout</h4>
     <input className="controls" type="text" name="name" value={name} onChange={onInputChange} placeholder="Ingrese su Nombre"/>
     <input className="controls" type="text" name="surname" value={surname} onChange={onInputChange} placeholder="Ingrese su Apellido"/>
     <input className="controls" type="text" name="phone" value={phone} onChange={onInputChange} placeholder="Ingrese su Télefono"/>
     <input className="controls" type="email" name="email" value={email} onChange={onInputChange} placeholder="Ingrese su Correo"/>
-    <button className="botons" type='submit'>Finalizar Compra</button>
+    <button className="Button3" type='submit'>Finalizar Compra</button>
     </form >
 
   )

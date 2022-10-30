@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom'
 const Navbar = ({color}) => {
      return(
         <div 
-            style={{
-             background:color
-         }} 
+        
             className='centrado'>
             <div>
                 <Link to='/'>

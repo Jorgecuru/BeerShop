@@ -1,21 +1,81 @@
 .Button {
-    width: auto;
-    margin: 5px;
-    padding-top: 12px;
-    font-size: 8px;
-    background: #8C30F5;
-    border-radius: 8px;
-    flex: none;
-    display: inline-block;
-    order: 1;
-    align-self: center;
-    flex-grow: 0;
-    justify-content: center;
+    color:black;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    text-decoration: none;
-    color: #FFFFFF;
-    border: none;
-    border-style: none;
-    cursor: pointer;
-    outline: inherit;
+    align-content: center;
+    padding-top: 15px;
+    
+display: inline-block;
+outline: 0;
+cursor: pointer;
+justify-content: center;
+align-items: center;
+align-content: center;
+border-radius: 8px;
+box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+background:  #ACB9A9;
+font-size:20px;
+height: 31px;
+padding: 0 11px;
+text-align: center;
+width: 40%;
+min-width: 200px;
+font-weight: 500;
+color: #0F1111;
 }
+
+.Button2 {
+    color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 15px;
+    
+display: inline-block;
+outline: 0;
+cursor: pointer;
+justify-content: center;
+align-items: center;
+align-content: center;
+border-radius: 8px;
+box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+background: red;
+font-size:20px;
+height: 31px;
+padding: 0 11px;
+text-align: center;
+width: 40%;
+min-width: 200px;
+font-weight: 500;
+
+}
+
+.Button3 {
+    color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 15px;
+    
+display: inline-block;
+outline: 0;
+cursor: pointer;
+justify-content: center;
+align-items: center;
+align-content: center;
+border-radius: 8px;
+box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+background: green;
+font-size:20px;
+height: 31px;
+padding: 0 11px;
+text-align: center;
+width: 40%;
+min-width: 200px;
+font-weight: 500;
+color: #0F1111;
+}
+
